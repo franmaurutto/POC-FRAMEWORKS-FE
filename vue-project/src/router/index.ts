@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import WelcomeView from '../views/WelcomeView.vue'; // Importa el nuevo componente
+import WelcomeView from '../views/WelcomeView.vue'; 
 
 const routes = [
   {
-    path: '/welcome', // Ruta para la vista de bienvenida
+    path: '/welcome', 
     name: 'Welcome',
     component: WelcomeView,
   },

@@ -27,7 +27,6 @@ export default {
       this.$emit('delete-task', index);
     },
     toggleCompleted(index, newState) {
-      // Actualizamos el estado de la tarea en el padre
       this.$emit('toggle-completed', index, newState);
     }
   }
@@ -40,15 +39,15 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 100vh; /* Asegura que esté centrado verticalmente */
+  min-height: 100vh; 
 }
 
 ul {
-  list-style-type: none; /* Quitar viñetas de la lista */
+  list-style-type: none; 
   padding: 0;
 }
 
 li {
-  margin-bottom: 10px; /* Espacio entre tareas */
+  margin-bottom: 10px; 
 }
 </style>

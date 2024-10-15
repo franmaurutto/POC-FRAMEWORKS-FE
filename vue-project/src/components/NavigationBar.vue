@@ -16,26 +16,26 @@
 
 <style>
 .navbar {
-  background-color: #ffcccb; /* Cambiado a color rosa pastel */
-  padding: 1rem; /* Espaciado interno */
+  background-color: #ffcccb; 
+  padding: 1rem; 
 }
 
 .navbar ul {
-  list-style-type: none; /* Quitar viñetas de la lista */
-  padding: 0; /* Quitar padding de la lista */
+  list-style-type: none; 
+  padding: 0; 
 }
 
 .navbar li {
-  display: inline; /* Mostrar elementos de la lista en línea */
-  margin-right: 15px; /* Espaciado entre enlaces */
+  display: inline; 
+  margin-right: 15px; 
 }
 
 .navbar a {
-  color: white; /* Color de texto blanco */
-  text-decoration: none; /* Sin subrayado */
+  color: white; 
+  text-decoration: none; 
 }
 
 .navbar a:hover {
-  text-decoration: underline; /* Subrayar al pasar el mouse */
+  text-decoration: underline; 
 }
 </style>

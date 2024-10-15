@@ -13,7 +13,6 @@
     },
     methods: {
       emitToggleCompleted(event) {
-        // Emitimos el nuevo estado (true/false) al padre
         this.$emit('toggle-completed', event.target.checked);
       }
     }
